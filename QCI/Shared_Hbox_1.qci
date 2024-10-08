@@ -1,0 +1,27 @@
+//There's different sets of hitboxes. No clue why. But it is important that we keep the correct hitboxes for all the CI, else we'll have isues.
+
+$HBoxSet "common_male"
+$HBox 3 "ValveBiped.Bip01_Pelvis" -10 -0.5 -5.5 -2.5 7.5 6.5
+$HBox 3 "ValveBiped.Bip01_Pelvis" -2.5 -7.5 -5.5 2.5 4.5 6.5
+$HBox 3 "ValveBiped.Bip01_Pelvis" 2.5 -0.5 -5.5 10 7.5 6.5
+$HBox 6 "ValveBiped.Bip01_L_Thigh" 7 -4.5 -3.5 20 3.5 3.5
+$HBox 6 "ValveBiped.Bip01_L_Calf" 0 -3.25 -3 20 3.25 3
+$HBox 7 "ValveBiped.Bip01_R_Thigh" 7 -4.5 -3.5 20 3.5 3.5
+$HBox 7 "ValveBiped.Bip01_R_Calf" 0 -3.25 -3 20 3.25 3
+$HBox 3 "ValveBiped.Bip01_Pelvis" -7.5 4.5 -6.5 7.5 11.5 -0.5
+$HBox 3 "ValveBiped.Bip01_Pelvis" -7.5 4.5 -0.5 7.5 13.5 5.5
+$HBox 2 "ValveBiped.Bip01_Spine2" 0.5 -1.5 -3 9.5 7.5 3
+$HBox 2 "ValveBiped.Bip01_Spine2" 0.5 -4.5 -7 9.5 -1.5 7
+$HBox 2 "ValveBiped.Bip01_Spine2" 0.5 -1.5 -8 11.5 7.5 -3
+$HBox 2 "ValveBiped.Bip01_Spine2" 0.5 -1.5 3 11.5 7.5 8
+$HBox 1 "ValveBiped.Bip01_Head1" -6 -1.5 -2.75 0 5.5 2.75
+$HBox 1 "ValveBiped.Bip01_Head1" -1.5 -3.5 -3.5 3 4 3.5
+$HBox 1 "ValveBiped.Bip01_Head1" 3 -3.5 -3.5 7.5 4 3.5
+$HBox 3 "ValveBiped.Bip01_Head1" -2.5 -4.5 -3.5 1.5 -0.5 3.5
+$HBox 4 "ValveBiped.Bip01_L_UpperArm" 0 -2.5 -2.25 10.75 2.5 2.25
+$HBox 4 "ValveBiped.Bip01_L_Forearm" -1.5 -2.25 -2.31 19 2.25 2.31
+$HBox 5 "ValveBiped.Bip01_R_UpperArm" 0 -2.5 -2.25 10.75 2.5 2.25
+$HBox 5 "ValveBiped.Bip01_R_Forearm" -1.5 -2.25 -2.31 19 2.25 2.31
+$HBox 6 "ValveBiped.Bip01_L_Thigh" 0 -5.5 -4.5 7 4.5 4.5
+$HBox 7 "ValveBiped.Bip01_R_Thigh" 0 -5.5 -4.5 7 4.5 4.5
+$SkipBoneInBBox
