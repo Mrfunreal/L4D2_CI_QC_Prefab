@@ -6,6 +6,10 @@ $BodyGroup "main"
 	Studio blank	//"common_infected_w_l_leg_upper_gib.smd"
 }
 
+//	$DoNotCastShadows
+	$Opaque			//perhaps use $mostlyopaque if you use transparent things.
+//	$MostlyOpaque	//perhaps use $mostlyopaque if you use transparent things.
+
 
 $SurfaceProp "flesh"
 $Contents "solid"

@@ -6,11 +6,14 @@ $BodyGroup "studio"
 	Studio blank	//"limb_male_lleg01.smd"
 }
 
+//	$DoNotCastShadows
+	$Opaque			//perhaps use $mostlyopaque if you use transparent things.
+//	$MostlyOpaque	//perhaps use $mostlyopaque if you use transparent things.
+
 
 $SurfaceProp "flesh"
 $Contents "solid"
 $IllumPosition 4.731 -0.132 17.236
-$Opaque
 
 $CDMaterials "models\infected\common\limbs\"
 $CDMaterials ""

@@ -1,24 +1,27 @@
-$ModelName "infected/cim_faceplate.mdl"
+$ModelName "infected/common_infected_w_ceda_faceplate.mdl"
 
 $BodyGroup "main"
 {
-studio Custom_Model_Files_Here/Blank
+studio Custom_Model_Files_Here/Blank //damaged faceplate after being shot
 }
 
+	$DoNotCastShadows
+	$Opaque			//use $mostlyopaque if you use transparent things.
+//	$MostlyOpaque	//use $mostlyopaque if you use transparent things.
 
 $SurfaceProp "plastic"
 
 $Contents "solid"
 
-$IllumPosition 0.016 36.801 4.387
+$IllumPosition 0.015 -5.781 36.751
 
-$CDMaterials "models\infected\common\l4d2\"
+$CDMaterials "models\infected\common\body_wounds"
 $CDMaterials ""
 $CDMaterials "models\MrFunreal\dummeh"
 
 $CBox 0 0 0 0 0 0
 
-$BBox -73.602 -5.581 -5.739 0 5.612 14.513
+$BBox -2.742 -5.45 0 14.304 5.48 73.502
 
 $DefineBone "ValveBiped.ValveBiped" "" 0 0 0 0 0 -0.000018 0 0 0 0 0 0
 $DefineBone "ValveBiped.Bip01" "ValveBiped.ValveBiped" 0 38.034397 -0.258115 0 0 0 0 0 0 0 0 0
@@ -29,14 +32,8 @@ $DefineBone "ValveBiped.Bip01_Spine4" "ValveBiped.Bip01_Spine2" 5.656143 -0.0000
 $DefineBone "ValveBiped.Bip01_Neck1" "ValveBiped.Bip01_Spine4" 5.507969 0 0 0 9.78377 179.999855 0 0 0 0 0 0
 $DefineBone "ValveBiped.Bip01_Head1" "ValveBiped.Bip01_Neck1" 3.999088 0.000004 0 -0.000057 41.083079 0 0 0 0 0 0 0
 
-$BoneMerge "ValveBiped.ValveBiped"
-$BoneMerge "ValveBiped.Bip01"
-$BoneMerge "ValveBiped.Bip01_Spine"
-$BoneMerge "ValveBiped.Bip01_Spine1"
-$BoneMerge "ValveBiped.Bip01_Spine2"
-$BoneMerge "ValveBiped.Bip01_Spine4"
-$BoneMerge "ValveBiped.Bip01_Neck1"
-$BoneMerge "ValveBiped.Bip01_Head1"
 
+$SectionFrames 30 119
 
-$sequence idle Custom_Model_Files_Here/Blank 
+$Sequence "idle" "Custom_Model_Files_Here\Blank.smd"
+$Sequence "test" "Custom_Model_Files_Here\Blank.smd" //unused test anims. use same model as idle.
