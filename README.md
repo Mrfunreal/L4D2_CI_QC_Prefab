@@ -26,4 +26,4 @@ Uncommons are: Riot, Ceda, Clown, Roadcrew/male_baggagehandler02, Mudman, Fallen
 3. Edit every model's QC to use your own "Custom_Model.smd". (Or just the QC's you want to edit.)
 4. Add the cdmaterials of your model either directly to that qc, or the "QCI/Shared_All.qci".
 5. For the Faceplates and Fallen CI Pockets: They're basic prop_dynamic entities rigged to the face or the chest. It's up to you ro rig the meses to the proper bones.
-6. Compile your Qc file(s) one at a time, or use crowbat to compile the entire folder. Remember to check the compile log for errors!
+6. Compile your Qc file(s) one at a time, or use crowbar to compile the entire folder. Remember to check the compile log for errors!
