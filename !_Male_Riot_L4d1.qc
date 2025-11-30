@@ -1,4 +1,4 @@
-$ModelName "infected/common_male_riot_L4D1.mdl"
+$ModelName "infected/common_male_riot_L4D1"
 
 $PushD Custom_Model_Files_Here
 $BodyGroup "UpperBody"
@@ -26,6 +26,9 @@ $Attachment "chest" "ValveBiped.Bip01_Spine2" 0 0 0 rotate 0 95 0
 $Include qci/shared_Hbox_1.qci
 $Include qci/shared_Definebone_4.qci
 $Include qci/shared_all.qci
+
+// uncomment and edit this file if you want to use wounds or the burn overlay.
+//	$Include qci/Texturegroups/tg_male_riot_L4D1.qci 
 
 
 

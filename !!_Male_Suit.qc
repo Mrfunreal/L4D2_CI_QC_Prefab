@@ -1,4 +1,4 @@
-$ModelName "infected/common_male_suit.mdl"
+$ModelName "infected/common_male_suit"
 
 $PushD Custom_Model_Files_Here
 $BodyGroup "UpperBody"
@@ -30,6 +30,9 @@ $DefineBone "ValveBiped.Jiggle_tie2" "ValveBiped.Jiggle_tie1" -0.922461 0.000014
 $DefineBone "ValveBiped.Jiggle_tie3" "ValveBiped.Jiggle_tie2" 1.599671 -0.009298 3.722109 -6.590536 1.652507 5.045062 0 0 0 0 0 0
 $DefineBone "ValveBiped.Jiggle_tie4" "ValveBiped.Jiggle_tie3" 1.523906 0.102266 3.05243 -0.000495 0.000188 -0.001061 0 0 0 0 0 0
 $Include qci/shared_all.qci
+
+// uncomment and edit this file if you want to use wounds or the burn overlay.
+//	$Include qci/Texturegroups/tg_male_suit.qci 
 
 // -- Includemodel -- You probably should not edit this part.
 $BoneSaveFrame "ValveBiped.Bip01_Pelvis" position

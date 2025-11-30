@@ -1,4 +1,4 @@
-$ModelName "infected/common_male_baggagehandler_02.mdl"
+$ModelName "infected/common_male_baggagehandler_02"
 
 $PushD Custom_Model_Files_Here
 $BodyGroup "UpperBody"
@@ -31,6 +31,8 @@ $Include qci/shared_Hbox_1.qci
 $Include qci/shared_Definebone_1.qci
 $Include qci/shared_all.qci
 
+// uncomment and edit this file if you want to use wounds or the burn overlay.
+//	$Include qci/Texturegroups/tg_male_baggagehandler_02.qci 
 
 
 

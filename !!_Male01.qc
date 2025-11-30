@@ -1,4 +1,4 @@
-$ModelName "infected/common_male01.mdl"
+$ModelName "infected/common_male01"
 
 $PushD Custom_Model_Files_Here
 $BodyGroup "UpperBody"
@@ -27,6 +27,8 @@ $Include qci/shared_Hbox_1.qci
 $Include qci/shared_Definebone_1.qci
 $Include qci/shared_all.qci
 
+// uncomment and edit this file if you want to use wounds or the burn overlay.
+//	$Include qci/Texturegroups/tg_male01.qci 
 
 
 

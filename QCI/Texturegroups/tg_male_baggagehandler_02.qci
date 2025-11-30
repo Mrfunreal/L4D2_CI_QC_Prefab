@@ -1,0 +1,45 @@
+/*
+Skinfamilies are for the stages of damage. Only useful for when you want to keep the gibbing system or keep the burning texture.
+The amount of skingroups and order MUST REMAIN THE SAME!
+The order is always Default, Wounded, Burning, Wounded+Burning. then the order repeats for a different set of materials.
+
+L4D1 CI usually don't have the burning material, but the order of "Default, Wounded, Burning, Wounded+Burning" is still there.
+If you only want burned body materials without wounds (cause the cutout system sucks), just do "Default, Default, Burning, Burning" instead.
+If you don't want any wounds or burning, you could just not have any texturegroups at all
+
+Also, if you are using skingroups, every material on your model bust be in each texturegroup line.
+
+Extra note:
+Some L4D1 CI have really stupid texture groups. 
+"Male_Suit.mdl" for example lists "common_male_black_head_03_wounded" a whole awful lot of times for no apparent reason.
+I don't know if they have any use. But you probably should replace all of those with any other dud material that doesn't actually do anything. 
+Its just some ugly jank TLS did for *some* reason.
+*/
+
+$TextureGroup "skinfamilies"
+{
+	{ "common_male_black_head_02"          "common_baggagehandler_upper_01"         "common_male_lower_01"         "cim_roadcrew"         "common_worker_male_head_01"          }
+	{ "common_male_black_head_02_wounded"  "common_baggagehandler_upper_01_wounded" "common_male_lower_01_wounded" "cim_roadcrew_wounded" "common_worker_male_head_01_wounded"  }
+	{ "common_male_black_head_02"          "common_baggagehandler_upper_01"         "common_male_lower_01"         "cim_roadcrew"         "common_worker_male_head_01"          }
+	{ "common_male_black_head_02_wounded"  "common_baggagehandler_upper_01_wounded" "common_male_lower_01_wounded" "cim_roadcrew_wounded" "common_worker_male_head_01_wounded"  }
+	{ "common_worker_male_head_02"         "common_baggagehandler_upper_01"         "common_male_lower_01"         "cim_roadcrew"         "common_male_black_head_01"           }
+	{ "common_worker_male_head_02_wounded" "common_baggagehandler_upper_01_wounded" "common_male_lower_01_wounded" "cim_roadcrew_wounded" "common_male_black_head_01_wounded"   }
+	{ "common_worker_male_head_02"         "common_baggagehandler_upper_01"         "common_male_lower_01"         "cim_roadcrew"         "common_male_black_head_01"           }
+	{ "common_worker_male_head_02_wounded" "common_baggagehandler_upper_01_wounded" "common_male_lower_01_wounded" "cim_roadcrew_wounded" "common_male_black_head_01_wounded"   }
+	{ "common_worker_male_head_03"         "common_baggagehandler_upper_01"         "common_male_lower_01"         "cim_roadcrew"         "common_male_black_head_03"           }
+	{ "common_worker_male_head_03_wounded" "common_baggagehandler_upper_01_wounded" "common_male_lower_01_wounded" "cim_roadcrew_wounded" "common_male_black_head_03_wounded"   }
+	{ "common_worker_male_head_03"         "common_baggagehandler_upper_01"         "common_male_lower_01"         "cim_roadcrew"         "common_male_black_head_03"           }
+	{ "common_worker_male_head_03_wounded" "common_baggagehandler_upper_01_wounded" "common_male_lower_01_wounded" "cim_roadcrew_wounded" "common_male_black_head_03_wounded"   }
+	{ "common_worker_male_head_04"         "common_baggagehandler_upper_01"         "common_male_lower_01"         "cim_roadcrew"         "common_male_black_head_04"           }
+	{ "common_worker_male_head_04_wounded" "common_baggagehandler_upper_01_wounded" "common_male_lower_01_wounded" "cim_roadcrew_wounded" "common_male_black_head_04_wounded"   }
+	{ "common_worker_male_head_04"         "common_baggagehandler_upper_01"         "common_male_lower_01"         "cim_roadcrew"         "common_male_black_head_04"           }
+	{ "common_worker_male_head_04_wounded" "common_baggagehandler_upper_01_wounded" "common_male_lower_01_wounded" "cim_roadcrew_wounded" "common_male_black_head_04_wounded"   }
+	{ "common_old_male_head_01"            "common_baggagehandler_upper_01"         "common_male_lower_01"         "cim_roadcrew"         "common_police_male_head_03"          }
+	{ "common_old_male_head_01_wounded"    "common_baggagehandler_upper_01_wounded" "common_male_lower_01_wounded" "cim_roadcrew_wounded" "common_police_male_head_03_wounded"  }
+	{ "common_old_male_head_01"            "common_baggagehandler_upper_01"         "common_male_lower_01"         "cim_roadcrew"         "common_police_male_head_03"          }
+	{ "common_old_male_head_01_wounded"    "common_baggagehandler_upper_01_wounded" "common_male_lower_01_wounded" "cim_roadcrew_wounded" "common_police_male_head_03_wounded"  }
+	{ "common_old_male_head_02"            "common_baggagehandler_upper_01"         "common_male_lower_01"         "cim_roadcrew"         "common_male_suit_01_head_02"         }
+	{ "common_old_male_head_02_wounded"    "common_baggagehandler_upper_01_wounded" "common_male_lower_01_wounded" "cim_roadcrew_wounded" "common_male_suit_01_head_02_wounded" }
+	{ "common_old_male_head_02"            "common_baggagehandler_upper_01"         "common_male_lower_01"         "cim_roadcrew"         "common_male_suit_01_head_02"         }
+	{ "common_old_male_head_02_wounded"    "common_baggagehandler_upper_01_wounded" "common_male_lower_01_wounded" "cim_roadcrew_wounded" "common_male_suit_01_head_02_wounded" }
+}

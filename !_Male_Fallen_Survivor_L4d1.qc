@@ -1,7 +1,7 @@
 //Note: This UCI is kind of special. It is both the default "Fallen survivor" but also the helicopter pilot model. All in one. 
 // It seems like as if the first meshes in UpperBody, Head, and LowerBody are the default fallen survivor, while the second is the pilot.
 // the "Hed" bodygroup is only for the head flesh. Hat is part of "Head"
-$ModelName "infected/common_male_fallen_survivor_L4D1.mdl"
+$ModelName "infected/common_male_fallen_survivor_L4D1"
 
 $PushD Custom_Model_Files_Here
 
@@ -34,6 +34,9 @@ $Attachment "medkit" "ValveBiped.Bip01_Spine4" 1 -5 0 rotate 5 77 0
 $Include qci/shared_Hbox_1.qci
 $Include qci/shared_Definebone_1.qci
 $Include qci/shared_all.qci
+
+// uncomment and edit this file if you want to use wounds or the burn overlay.
+//	$Include qci/Texturegroups/tg_male_fallen_survivor_L4D1.qci 
 
 
 
