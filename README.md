@@ -16,9 +16,11 @@ Uncommons are: Riot, Ceda, Clown, Roadcrew/male_baggagehandler02, Mudman, Fallen
 ### Files:
 |Name|Description|
 | ------------- | ------------- |
-| !!_Ceda_Faceplate.qc | Face plate for the CEDA uncommon. Both L4D1 and L4D2 Ceda agents.|
-| !!_Fallen_Survivor_Pocket0x.qc | Pockets that the fallen survivor would wear Should align with their attachment spots if used. Else make them invisible.|
-| !!_Riotcot_Faceplate.qc | Face plate for the Riot Infected. Both L4D1 and L4D2 riot cops.|
+| !_ prefix | L4D2 CI Models (L4D1 UCI are jsut recompiled L4D2 UCI)|
+| !!_ prefix | L4D1 CI Models |
+| !!!_Ceda_Faceplate.qc | Face plate for the CEDA uncommon. Both L4D1 and L4D2 Ceda agents.|
+| !!!_Riotcot_Faceplate.qc | Face plate for the Riot Infected. Both L4D1 and L4D2 riot cops.|
+| !!!_Fallen_Survivor_Pocket0x.qc | Pockets that the fallen survivor would wear Should align with their attachment spots if used. Else make them invisible.|
 
 ## Usage
 1. Download this repo anywhere on your pc.
