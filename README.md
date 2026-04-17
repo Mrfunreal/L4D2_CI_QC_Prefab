@@ -1,8 +1,8 @@
 # L4D2_CI_QC_Prefab
-This setup allows you to edit all CI models at once. You then compile all of them using crowbar, if you wish.
-Remember the Uncommon infected need to look like uncommons. Else it'll be annoying to play.
-Uncommons are: Riot, Ceda, Clown, Roadcrew/male_baggagehandler02, Mudman, Fallen Survivor/Parachutist, Jimmy.
-
+This setup allows you to edit all CI models at once. You then compile all of them using crowbar, if you wish.<br>
+Remember the Uncommon infected need to look like uncommons. Else it'll be annoying to play.<br>
+Uncommons are: Riot, Ceda, Clown, Roadcrew/male_baggagehandler02, Mudman, Fallen Survivor/Parachutist, Jimmy.<br>
+<br>[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A0A11XXM4Q)
 ## Table of contents:
 
 ### Folders: 
