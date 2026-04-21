@@ -2,7 +2,7 @@
 This setup allows you to edit all CI models at once. You then compile all of them using crowbar, if you wish.<br>
 Remember the Uncommon infected need to look like uncommons. Else it'll be annoying to play.<br>
 Uncommons are: Riot, Ceda, Clown, Roadcrew/male_baggagehandler02, Mudman, Fallen Survivor/Parachutist, Jimmy.<br>
-<br>[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A0A11XXM4Q)
+<a href="https://ko-fi.com/A0A11XXM4Q">  <img src="https://raw.githubusercontent.com/Mrfunreal/Various/refs/heads/main/images/Ko-Fi_smaller.png" width="50%"></a><br>
 ## Table of contents:
 
 ### Folders: 
